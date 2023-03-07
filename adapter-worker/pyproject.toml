@@ -6,10 +6,6 @@ authors = ["rob.grant@sensynehealth.com"]
 keywords = ["RabbitMQ", "Pika", "Knife", "Wrench", "Knifewrench"]
 repository = "https://github.com/draysontechnologies/dhos-knifewrench"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 environs = "9.*"
