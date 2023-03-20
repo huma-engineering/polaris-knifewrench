@@ -179,14 +179,14 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "certifi"
-version = "2022.6.15"
+version = "2022.12.7"
 description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "certifi-2022.6.15-py3-none-any.whl", hash = "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"},
-    {file = "certifi-2022.6.15.tar.gz", hash = "sha256:84c85a9078b11105f04f3036a9482ae10e4621616db313fe045dd24743a0820d"},
+    {file = "certifi-2022.12.7-py3-none-any.whl", hash = "sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"},
+    {file = "certifi-2022.12.7.tar.gz", hash = "sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"},
 ]
 
 [[package]]
@@ -381,22 +381,22 @@ files = [
 
 [[package]]
 name = "dparse"
-version = "0.5.1"
+version = "0.6.2"
 description = "A parser for Python dependency files"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
 files = [
-    {file = "dparse-0.5.1-py3-none-any.whl", hash = "sha256:e953a25e44ebb60a5c6efc2add4420c177f1d8404509da88da9729202f306994"},
-    {file = "dparse-0.5.1.tar.gz", hash = "sha256:a1b5f169102e1c894f9a7d5ccf6f9402a836a5d24be80a986c7ce9eaed78f367"},
+    {file = "dparse-0.6.2-py3-none-any.whl", hash = "sha256:8097076f1dd26c377f30d4745e6ec18fef42f3bf493933b842ac5bafad8c345f"},
+    {file = "dparse-0.6.2.tar.gz", hash = "sha256:d45255bda21f998bc7ddf2afd5e62505ba6134756ba2d42a84c56b0826614dfe"},
 ]
 
 [package.dependencies]
 packaging = "*"
-pyyaml = "*"
 toml = "*"
 
 [package.extras]
+conda = ["pyyaml"]
 pipenv = ["pipenv"]
 
 [[package]]
@@ -598,14 +598,14 @@ smmap = ">=3.0.1,<6"
 
 [[package]]
 name = "gitpython"
-version = "3.1.27"
-description = "GitPython is a python library used to interact with Git repositories"
+version = "3.1.31"
+description = "GitPython is a Python library used to interact with Git repositories"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "GitPython-3.1.27-py3-none-any.whl", hash = "sha256:5b68b000463593e05ff2b261acff0ff0972df8ab1b70d3cdbd41b546c8b8fc3d"},
-    {file = "GitPython-3.1.27.tar.gz", hash = "sha256:1c885ce809e8ba2d88a29befeb385fcea06338d3640712b59ca623c220bb5704"},
+    {file = "GitPython-3.1.31-py3-none-any.whl", hash = "sha256:f04893614f6aa713a60cbbe1e6a97403ef633103cdd0ef5eb6efe0deb98dbe8d"},
+    {file = "GitPython-3.1.31.tar.gz", hash = "sha256:8ce3bcf69adfdf7c7d503e78fd3b1c492af782d58893b650adb2ac8912ddd573"},
 ]
 
 [package.dependencies]
@@ -891,14 +891,14 @@ she-logging = ">=1.0.0,<2.0.0"
 
 [[package]]
 name = "mako"
-version = "1.2.1"
+version = "1.2.4"
 description = "A super-fast templating language that borrows the best ideas from the existing templating languages."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "Mako-1.2.1-py3-none-any.whl", hash = "sha256:df3921c3081b013c8a2d5ff03c18375651684921ae83fd12e64800b7da923257"},
-    {file = "Mako-1.2.1.tar.gz", hash = "sha256:f054a5ff4743492f1aa9ecc47172cb33b42b9d993cffcc146c9de17e717b0307"},
+    {file = "Mako-1.2.4-py3-none-any.whl", hash = "sha256:c97c79c018b9165ac9922ae4f32da095ffd3c4e6872b45eded42926deea46818"},
+    {file = "Mako-1.2.4.tar.gz", hash = "sha256:d60a3903dc3bb01a18ad6a89cdbe2e4eadc69c0bc8ef1e3773ba53d44c3f7a34"},
 ]
 
 [package.dependencies]
@@ -1920,14 +1920,14 @@ testing = ["coverage (>=5.0)", "pytest", "pytest-cover"]
 
 [[package]]
 name = "werkzeug"
-version = "2.2.1"
+version = "2.2.3"
 description = "The comprehensive WSGI web application library."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "Werkzeug-2.2.1-py3-none-any.whl", hash = "sha256:7e1db6a5ba6b9a8be061e47e900456355b8714c0f238b0313f53afce1a55a79a"},
-    {file = "Werkzeug-2.2.1.tar.gz", hash = "sha256:4d7013ef96fd197d1cdeb03e066c6c5a491ccb44758a5b2b91137319383e5a5a"},
+    {file = "Werkzeug-2.2.3-py3-none-any.whl", hash = "sha256:56433961bc1f12533306c624f3be5e744389ac61d722175d543e1751285da612"},
+    {file = "Werkzeug-2.2.3.tar.gz", hash = "sha256:2e1ccc9417d4da358b9de6f174e3ac094391ea1d4fbef2d667865d819dfd0afe"},
 ]
 
 [package.dependencies]
