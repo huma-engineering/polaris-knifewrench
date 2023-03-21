@@ -2,10 +2,6 @@ name: CI
 
 on: [workflow_dispatch, push, pull_request]
 
-env:
-  REGISTRY: humagdmacr.azurecr.io
-  ACR_USERNAME: humagdmacr
-
 jobs:
   test:
     name: Unit testing
@@ -75,7 +71,8 @@ jobs:
     if: ${{ github.ref == 'refs/heads/develop' }}
     runs-on: ubuntu-latest
     env:
-      ACR_REPO_BASE: dhos
+      ACR_REPO_BASE: huma-engineering/dhos
+      REGISTRY: ghcr.io
     steps:
       - uses: actions/checkout@v3
       - name: Log in to the Azure Container Registry
